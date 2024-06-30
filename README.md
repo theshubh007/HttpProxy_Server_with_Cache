@@ -23,26 +23,34 @@ This project implements a high-performance, multi-threaded HTTP proxy server wit
 
 #### Follow this commands to test this project
 
+1. Clone this project in your device
 ```
   git clone https://github.com/theshubh007/HttpProxy_Server_with_Cache.git
 ```
-
+2. This automates the execution of build instructions based on dependencies specified in the Makefile.
 ```
   make
 ```
+
+3. Start the proxy server on port 8080:
 ```
   ./proxy XXXX( replace X with any port eg.8080)
 ```
 
-Now project is listening on 8080 port.
 
-As next step call the GET request
+4. As next step call the GET request
 
 ```
 http://localhost:XXXX/https://www.cs.princeton.edu/
 (Replace XXXX with previously entered port eg.8080)
 (This princeton website follows GET request category, that's why we're testing on it)
 ```
+
+
+## Project Output:
+
+
+![Screenshot 2024-06-30 171151](https://github.com/theshubh007/HttpProxy_Server_with_Cache/assets/100220928/a6986b5b-734a-4c44-8f41-c49283a523cd)
 
 
 
